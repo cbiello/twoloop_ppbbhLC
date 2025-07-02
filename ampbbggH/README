@@ -1,0 +1,2 @@
+g++ -c -fPIC -L/u/cbiello/Packages/qd-install/lib *.cpp  -lm  -lqd
+

@@ -1,0 +1,15 @@
+#include <iostream>
+#include "listYgg2Lnf0pppn.h" 
+#include <complex>
+#include <qd/qd_real.h>
+std::complex<dd_real> Ygg2Lnf0pppn318(ExVariables ex){
+std::complex<dd_real> ex1=ex.ex1;
+std::complex<dd_real> ex2=ex.ex2;
+std::complex<dd_real> ex3=ex.ex3;
+std::complex<dd_real> ex4=ex.ex4;
+std::complex<dd_real> ex5=ex.ex5;
+std::complex<dd_real> ex6=ex.ex6;
+std::complex<dd_real> res= 
+-dd_real(2.)*ex3*pow(dd_real(1.) + ex3,4)*pow(ex4,5)*(-dd_real(5.) + dd_real(2.)*ex4) + dd_real(2.)*pow(ex2,7)*pow(ex3,4)*(dd_real(60.) + dd_real(120.)*ex4 + (dd_real(60.) - dd_real(7.)*ex3)*pow(ex4,2)) - dd_real(2.)*ex2*ex3*pow(dd_real(1.) + ex3,3)*pow(ex4,3)*(dd_real(60.) + dd_real(4.)*(dd_real(27.) + dd_real(5.)*ex3)*ex4 + (dd_real(33.) - dd_real(18.)*ex3)*pow(ex4,2) + (-dd_real(8.) + dd_real(11.)*ex3)*pow(ex4,3)) + pow(ex2,6)*pow(ex3,3)*(-dd_real(233.)*ex4*pow(dd_real(1.) + ex4,2) + dd_real(2.)*pow(ex3,2)*ex4*(dd_real(5.) - dd_real(16.)*ex4 + dd_real(28.)*pow(ex4,2)) + ex3*(dd_real(360.) + dd_real(336.)*ex4 - dd_real(414.)*pow(ex4,2) - dd_real(362.)*pow(ex4,3))) - dd_real(2.)*pow(ex2,5)*pow(ex3,2)*(-dd_real(50.)*pow(ex4,2)*pow(dd_real(1.) + ex4,2) + ex3*ex4*(dd_real(413.) + dd_real(581.)*ex4 - dd_real(80.)*pow(ex4,2) - dd_real(241.)*pow(ex4,3)) + pow(ex3,3)*ex4*(-dd_real(10.) + dd_real(31.)*ex4 - dd_real(64.)*pow(ex4,2) + dd_real(42.)*pow(ex4,3)) + pow(ex3,2)*(-dd_real(180.) + dd_real(204.)*ex4 + dd_real(748.)*pow(ex4,2) + dd_real(83.)*pow(ex4,3) - dd_real(183.)*pow(ex4,4))) - dd_real(1.)*pow(ex2,2)*pow(dd_real(1.) + ex3,2)*pow(ex4,2)*(dd_real(233.)*ex3*ex4*pow(dd_real(1.) + ex4,2) - dd_real(6.)*pow(ex4,2)*pow(dd_real(1.) + ex4,2) + dd_real(2.)*pow(ex3,3)*ex4*(-dd_real(30.) + dd_real(52.)*ex4 - dd_real(49.)*pow(ex4,2) + dd_real(16.)*pow(ex4,3)) + pow(ex3,2)*(-dd_real(360.) - dd_real(288.)*ex4 + dd_real(494.)*pow(ex4,2) + dd_real(278.)*pow(ex4,3) - dd_real(32.)*pow(ex4,4))) - dd_real(2.)*pow(ex2,3)*ex3*(dd_real(1.) + ex3)*ex4*(-dd_real(1.)*pow(ex4,2)*pow(dd_real(1.) + ex4,2)*(-dd_real(53.) + dd_real(3.)*ex4) + ex3*ex4*(-dd_real(413.) - dd_real(569.)*ex4 + dd_real(107.)*pow(ex4,2) + dd_real(249.)*pow(ex4,3)) + pow(ex3,3)*ex4*(dd_real(20.) - dd_real(68.)*ex4 + dd_real(86.)*pow(ex4,2) - dd_real(64.)*pow(ex4,3) + dd_real(7.)*pow(ex4,4)) - dd_real(1.)*pow(ex3,2)*(-dd_real(180.) + dd_real(216.)*ex4 + dd_real(759.)*pow(ex4,2) + dd_real(11.)*pow(ex4,3) - dd_real(169.)*pow(ex4,4) + dd_real(8.)*pow(ex4,5))) + pow(ex2,4)*ex3*(dd_real(5.)*pow(ex4,3)*pow(dd_real(1.) + ex4,2) - dd_real(2.)*ex3*pow(ex4,2)*pow(dd_real(1.) + ex4,2)*(-dd_real(283.) + dd_real(53.)*ex4) + pow(ex3,2)*ex4*(-dd_real(953.) - dd_real(158.)*ex4 + dd_real(2296.)*pow(ex4,2) + dd_real(1110.)*pow(ex4,3) - dd_real(265.)*pow(ex4,4)) + dd_real(2.)*pow(ex3,4)*ex4*(dd_real(5.) - dd_real(42.)*ex4 + dd_real(74.)*pow(ex4,2) - dd_real(96.)*pow(ex4,3) + dd_real(28.)*pow(ex4,4)) - dd_real(2.)*pow(ex3,3)*(-dd_real(60.) + dd_real(432.)*ex4 + dd_real(465.)*pow(ex4,2) - dd_real(661.)*pow(ex4,3) - dd_real(291.)*pow(ex4,4) + dd_real(63.)*pow(ex4,5)));
+return res;
+}

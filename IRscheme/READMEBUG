@@ -1,0 +1,4 @@
+g++ -c -fPIC -L/ptmp/mpp/cbiello/Packages/qd-install/lib ggICatani.cpp -lm -lqd
+
+#Wed 8 Jan 25
+I have found a bug in ggICatani.cpp, precisely the analytic continuation of s34

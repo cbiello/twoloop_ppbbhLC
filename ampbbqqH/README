@@ -1,0 +1,2 @@
+g++ -c -L/u/asankar/Pkgs/qd/lib file.cpp  -lm  -lqd
+
