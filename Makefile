@@ -1,9 +1,11 @@
 # Top-level Makefile
 
-QD_LIB_DIR = /ptmp/mpp/cbiello/Packages/qd-install/lib
+QD_CXXFLAGS = $(shell pkg-config qd --cflags)
+QD_LIBS = $(shell pkg-config qd --libs)
+
 CXX = g++
-CXXFLAGS = -c -fPIC -I. -L$(QD_LIB_DIR)
-LDLIBS = -lm -lqd
+CXXFLAGS = -c -fPIC -I. $(QD_LIBS)
+LDLIBS = -lm $(QD_CXXFLAGS)
 
 # Find all .cpp files recursively
 CPP_FILES := $(shell find . -name '*.cpp')
