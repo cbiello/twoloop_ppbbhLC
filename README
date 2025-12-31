@@ -1,0 +1,82 @@
+pphbb_twoloop
+==============
+
+Description
+-----------
+pphbb_twoloop is a C++ library for the computation of leading-color (LC) 
+two-loop amplitudes for the process pp -> bbH in the yb^2 channel, with 
+massless bottom quarks and a massive Higgs boson. The library implements 
+the analytic expressions derived in:
+
+  S. Badger, H. B. Hartanto, J. Kryś, and S. Zoia,
+  "Two-loop leading-colour QCD helicity amplitudes for Higgs boson production 
+  in association with a bottom-quark pair at the LHC",
+  JHEP 11 (2021) 012, arXiv:2107.14733
+
+An equivalent library for the same amplitudes is provided by QQH-Amp of ref.
+
+  S. Devoto, M. Grazzini, S. Kallweit, J. Mazzitelli, and C. Savoini,
+  "Precise predictions for ttH production at the LHC: inclusive cross section 
+  and differential distributions",
+  JHEP 03 (2025) 189, arXiv:2411.15340
+
+Authors
+-------
+Developed by:
+C. Biello, J. Mazzitelli, A. Sankar, M. Wiesemann, and G. Zanderighi,
+in the context of:
+
+  C. Biello, J. Mazzitelli, A. Sankar, M. Wiesemann, and G. Zanderighi,
+  "Higgs boson production in association with massive bottom quarks at NNLO+PS",
+  JHEP 04 (2025) 088, arXiv:2412.09510
+
+Contact
+-------
+For comments or questions, please contact
+Christian Biello
+ETH Zürich
+Institute for Theoretical Physics
+Wolfgang-Pauli-Str. 27
+8093 Zürich
+
+Features
+--------
+- Computes two-loop QCD amplitudes in the leading-color approximation
+- Supports massless bottom quarks with a massive Higgs
+- Implemented in C++ for efficiency and easy integration into Monte Carlo frameworks
+
+Dependencies
+------------
+- PentagonFunctions (for evaluation of pentagon integrals)
+- qd-library (for high-precision arithmetic)
+
+Installation
+------------
+1. Clone the repository:
+   git clone <repository_url>
+   cd pphbb_twoloop
+
+2. Make sure PentagonFunctions and qd-library are installed and accessible.
+
+3. Build the library using your preferred build system (Make or CMake).
+
+Usage
+-----
+Compilation of the library performed externally by the makefile of
+the POWHEG LC-twoloop interface in ../interface-LC
+
+References
+----------
+1. S. Badger, H. B. Hartanto, J. Kryś, and S. Zoia,
+   "Two-loop leading-colour QCD helicity amplitudes for Higgs boson production 
+   in association with a bottom-quark pair at the LHC", 
+   JHEP 11 (2021) 012, arXiv:2107.14733
+
+2. C. Biello, J. Mazzitelli, A. Sankar, M. Wiesemann, and G. Zanderighi,
+   "Higgs boson production in association with massive bottom quarks at NNLO+PS",
+   JHEP 04 (2025) 088, arXiv:2412.09510
+
+3. S. Devoto, M. Grazzini, S. Kallweit, J. Mazzitelli, and C. Savoini,
+   "Precise predictions for ttH production at the LHC: inclusive cross section 
+   and differential distributions",
+   JHEP 03 (2025) 189, arXiv:2411.15340
