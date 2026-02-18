@@ -13,7 +13,7 @@ the analytic expressions derived in:
   in association with a bottom-quark pair at the LHC",
   JHEP 11 (2021) 012, arXiv:2107.14733
 
-An equivalent library for the same amplitudes is provided by QQH-Amp of ref.
+An equivalent library for the same amplitudes is provided by QQH-Amp of ref:
 
   S. Devoto, M. Grazzini, S. Kallweit, J. Mazzitelli, and C. Savoini,
   "Precise predictions for ttH production at the LHC: inclusive cross section 
@@ -58,12 +58,13 @@ Installation
 
 2. Make sure PentagonFunctions and qd-library are installed and accessible.
 
-3. Build the library using your preferred build system (Make or CMake).
+3. Build the library using the Make build system.
 
 Usage
 -----
 Compilation of the library performed externally by the makefile of
-the POWHEG LC-twoloop interface in ../interface-LC
+the POWHEG LC-twoloop interface in ../interface-LC in the ttHJ-release1.0
+of the POWHEG-BOX-RES (git submodule update -- remote -- init ttHJ).
 
 References
 ----------
